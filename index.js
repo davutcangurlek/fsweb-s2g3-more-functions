@@ -16,9 +16,10 @@
   örnek output: ""
 */
 
-function dosyaAdiniBul(/* kodlar buraya */) {
-  // kodlar buraya
+function dosyaAdiniBul(path) {
+  return path.split(/(\\|\/)/g).pop();
 }
+//console.log(dosyaAdiniBul("Beethoven_5.mp3"));
 
 /*
   GÖREV 2
