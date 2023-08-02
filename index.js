@@ -39,9 +39,23 @@ function dosyaAdiniBul(path) {
   örnek output: 104
 */
 
-function ortalamaBul(/* kodlar buraya */) {
-  // kodlar buraya
+function ortalamaBul(ortalama) {
+  const array= []
+  if(array.length === 0 ) {
+  return null;
+  }
+const x = 0;
+
+for (let i = 0; i < array.length; i++) {
+x += array[i]
 }
+const aritmetikOrtalama = x / array.length
+return aritmetikOrtalama;
+
+
+  }
+  console.log(ortalamaBul([1,2,3,4]))
+
 
 /*
   GÖREV 3
